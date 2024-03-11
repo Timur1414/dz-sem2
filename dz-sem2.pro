@@ -9,14 +9,23 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    fourthwindow.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    secondwindow.cpp \
+    thirdwindow.cpp
 
 HEADERS += \
-    mainwindow.h
+    fourthwindow.h \
+    mainwindow.h \
+    secondwindow.h \
+    thirdwindow.h
 
 FORMS += \
-    mainwindow.ui
+    fourthwindow.ui \
+    mainwindow.ui \
+    secondwindow.ui \
+    thirdwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
