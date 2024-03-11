@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>ThirdWindow</class>
+ <widget class="QMainWindow" name="ThirdWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -17,21 +17,21 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>80</y>
+      <x>140</x>
+      <y>220</y>
       <width>63</width>
       <height>20</height>
      </rect>
     </property>
     <property name="text">
-     <string>title 1</string>
+     <string>title 3</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonNext">
     <property name="geometry">
      <rect>
-      <x>280</x>
-      <y>220</y>
+      <x>250</x>
+      <y>370</y>
       <width>83</width>
       <height>29</height>
      </rect>
