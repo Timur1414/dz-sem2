@@ -16,3 +16,8 @@ void SecondWindow::on_pushButtonNext_clicked() {
     third_window->show();
 }
 
+void SecondWindow::set_data(QDate date, int count, QMap<int, int> map) {
+    this->date = date;
+    this->count = count;
+    this->map = map;
+}

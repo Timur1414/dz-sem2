@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <thirdwindow.h>
+#include <QDate>
 
 namespace Ui {
 class SecondWindow;
@@ -16,11 +17,17 @@ public:
     explicit SecondWindow(QWidget *parent = nullptr);
     ~SecondWindow();
 
+    void set_data(QDate, int, QMap<int, int>);
+    void generate_widgets();
+
 private slots:
     void on_pushButtonNext_clicked();
 
 private:
     Ui::SecondWindow *ui;
+    QDate date;
+    int count;
+    QMap<int, int> map;
     ThirdWindow* third_window;
 };
 
