@@ -16,3 +16,10 @@ void ThirdWindow::on_pushButtonNext_clicked() {
     fourth_window->show();
 }
 
+void ThirdWindow::set_date(QDate date, int count, QMap<int, int> map, QVector<QString> names, QVector<int> times) {
+    this->date = date;
+    this->count = count;
+    this->map = map;
+    this->names = names;
+    this->times = times;
+}

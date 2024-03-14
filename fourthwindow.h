@@ -15,8 +15,11 @@ public:
     explicit FourthWindow(QWidget *parent = nullptr);
     ~FourthWindow();
 
+    void set_data(QString);
+
 private:
     Ui::FourthWindow *ui;
+    QString result;
 };
 
 #endif // FOURTHWINDOW_H
