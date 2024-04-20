@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <secondwindow.h>
+#include <QKeyEvent>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -19,7 +20,8 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButtonNext_clicked();
+    void on_pushButton_clicked();
+    void keyPressEvent(QKeyEvent*);
 
 private:
     Ui::MainWindow *ui;
